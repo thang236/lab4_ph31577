@@ -78,7 +78,7 @@ fun Bai1(){
             ),
         )
         Button(onClick = {
-           if (userName.isNotBlank() && password.isNotBlank()&& userName=="username" && password=="password"){
+           if (userName.isNotBlank() && password.isNotBlank()&& userName=="123" && password=="123"){
                Toast.makeText(context, "Login successfully",Toast.LENGTH_LONG).show()
            }else if (userName.isNotBlank() && password.isNotBlank()){
                Toast.makeText(context, " username or password wording",Toast.LENGTH_LONG).show()
